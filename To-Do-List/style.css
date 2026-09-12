@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #1b1d22;
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#task {
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid #555;
+    border-radius: 6px;
+    outline: none;
+    background: #292c33;
+    color: white;
+}
+
+#task:focus {
+    border-color: #888;
+}
+
+form button {
+    height: 40px;
+    padding: 5px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #43a047;
+}
+
+#allTask {
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#allTask > div {
+    margin-top: 15px;
+    padding: 12px 15px;
+    background: #292c33;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#allTask span {
+    flex: 1;
+    font-size: 19px;
+    word-break: break-word;
+}
+
+#allTask button {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#allTask button:first-of-type {
+    background: #2196f3;
+}
+
+#allTask button:first-of-type:hover {
+    background: #1976d2;
+}
+
+#allTask button:last-of-type {
+    background: #e53935;
+}
+
+#allTask button:last-of-type:hover {
+    background: #c62828;
+}
